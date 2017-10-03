@@ -10,8 +10,8 @@ body {
 
 header {
   background: #E6CFA0;
-  padding: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.27);
+  background-image: url('elements/headerBackgroundV2.jpg');
+  background-position: 10px;
   border-left: 1px solid rgba(255, 255, 255, 0.27);
   border-right: 1px solid rgba(255, 255, 255, 0.27);
 }
@@ -36,7 +36,7 @@ Header elements
 }
 
 .menuItem {
-  background: white;
+  background: rgba(255, 255, 255, 0.25);
   display: inline-block;
   padding: 15px;
   transition: 0.4s;
@@ -44,7 +44,7 @@ Header elements
 }
 
 .menuItem:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255);
 }
 
 .topMenu a:hover {
