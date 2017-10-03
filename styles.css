@@ -5,13 +5,16 @@ Universal elements
 body {
   background: #e3d3af;
   margin: 0;
+  font-family: 'Merriweather', serif;
 }
 
 header {
   background: #E6CFA0;
-  padding: 2%;
+  padding: 1%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
 }
 
 h1 {
-  
+  margin: 0;
+  padding: 0 0 1% 0;
 }
