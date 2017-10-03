@@ -10,16 +10,36 @@ body {
 
 header {
   background: #E6CFA0;
-  padding: 1%;
+  padding: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.27);
 }
 
 h1 {
   margin: 0;
-  padding: 0 0 1% 0;
+  padding: 1% 0 1% 1%;
 }
 
 /**********************
 Header elements
 **********************/
 
+.topMenu {
+
+}
+
+.menuItem {
+  background: white;
+  display: inline-block;
+  padding: 1%;
+}
+
+.menuItem:hover {
+  background: rgba(0,0,0,0);
+}
+
+.menuItem a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1%;
+  color: #E6CFA0;
+}
