@@ -11,12 +11,15 @@ body {
 header {
   background: #E6CFA0;
   padding: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+  border-top: 1px solid rgba(255, 255, 255, 0.27);
+  border-left: 1px solid rgba(255, 255, 255, 0.27);
+  border-right: 1px solid rgba(255, 255, 255, 0.27);
 }
 
 h1 {
   margin: 0;
-  padding: 1% 0 1% 1%;
+  font-size: 400%;
+  padding: 1% 0 5% 1%;
 }
 
 /**********************
@@ -27,19 +30,23 @@ Header elements
 
 }
 
+.topMenu a {
+  text-decoration: none;
+  color: #E6CFA0;
+}
+
 .menuItem {
   background: white;
   display: inline-block;
-  padding: 1%;
+  padding: 15px;
+  transition: 0.4s;
+  border: 1px solid rgba(255, 255, 255, 0.27);
 }
 
 .menuItem:hover {
-  background: rgba(0,0,0,0);
+  background: rgba(255, 255, 255, 0.3);
 }
 
-.menuItem a {
-  text-decoration: none;
-  display: block;
-  padding: 1%;
-  color: #E6CFA0;
+.topMenu a:hover {
+  color: white;
 }
