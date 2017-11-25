@@ -24,10 +24,20 @@ header {
 
 .topMenu {
   width: 50%
-    
 }
 
 
 /**********************
-
+Body
 **********************/
+/* Main content encapsulator */
+section {
+  display: flex;
+  justify-content: center;
+}
+
+/* Main article encapsulator */
+article {
+  background: #E3D3AF;
+  width: 70%;
+}
