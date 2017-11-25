@@ -3,16 +3,9 @@ Universal elements
 **********************/
 body {
   background: #e3d3af;
+  background-image: url('elements/headerBackgroundV2.jpg');
   margin: 0;
   font-family: 'Merriweather', serif;
-}
-
-header {
-  background: #E6CFA0;
-  background-image: url('elements/headerBackgroundV2.jpg');
-  background-position: 10px;
-  border-left: 1px solid rgba(255, 255, 255, 0.27);
-  border-right: 1px solid rgba(255, 255, 255, 0.27);
 }
 
 /* Header styles */
@@ -25,30 +18,13 @@ h1 {
 /**********************
 Header elements
 **********************/
+header {
+  background: #e3d3af;
+}
 
 .topMenu {
-
-}
-
-.topMenu a {
-  text-decoration: none;
-  color: #E6CFA0;
-}
-
-.menuItem {
-  background: white;
-  display: inline-block;
-  padding: 15px;
-  transition: 0.4s;
-  border: 1px solid rgba(255, 255, 255, 0.27);
-}
-
-.menuItem:hover {
-  background: rgba(255, 255, 255, 0);
-}
-
-.topMenu a:hover {
-  color: white;
+  width: 50%
+    
 }
 
 
