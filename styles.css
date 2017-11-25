@@ -1,7 +1,6 @@
 /**********************
 Universal elements
 **********************/
-
 body {
   background: #e3d3af;
   margin: 0;
@@ -16,6 +15,7 @@ header {
   border-right: 1px solid rgba(255, 255, 255, 0.27);
 }
 
+/* Header styles */
 h1 {
   margin: 0;
   font-size: 400%;
